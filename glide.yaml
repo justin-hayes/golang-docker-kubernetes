@@ -1,0 +1,5 @@
+package: github.com/justin-hayes/golang-docker-kubernetes
+import:
+- package: github.com/urfave/negroni
+  version: ^0.2.0
+- package: github.com/gorilla/pat
