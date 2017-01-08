@@ -13,7 +13,7 @@ A "hello world" project created to explore the development environment setup, de
 
 From a fresh clone of the repository:
 ```
-glide install`
+glide install
 docker build -t golang-docker-kubernetes .
 docker run -p 8080:8080 --rm --name gdk golang-docker-kubernetes
 ```
